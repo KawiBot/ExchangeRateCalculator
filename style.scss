@@ -28,6 +28,8 @@ body {
     text-align: center;
   }
   .container {
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 20px;
     .currency {
       padding: 40px 0;
       display: flex;
@@ -99,4 +101,16 @@ body {
       width: 200px;
     }
   }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }

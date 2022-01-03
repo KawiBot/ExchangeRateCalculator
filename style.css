@@ -40,6 +40,12 @@ body p {
   text-align: center;
 }
 
+body .container {
+  -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
 body .container .currency {
   padding: 40px 0;
   display: -webkit-box;
@@ -126,5 +132,17 @@ body .swap-rate-container .btn:active {
   .currency input {
     width: 200px;
   }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }
 /*# sourceMappingURL=style.css.map */
