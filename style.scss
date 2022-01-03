@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+body {
+  /* Centers everything */
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  /* End center */
+  font-family: "Stick No Bills", sans-serif;
+  font-size: 1.3rem;
+}
